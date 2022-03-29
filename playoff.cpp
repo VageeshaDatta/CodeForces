@@ -9,14 +9,14 @@ using namespace std;
  
 int main()
 {
-    int T;
-    long long int n_case,answer;
+    int TestCases;
+    long long int n_players,answer;
     
-    cin >> T ;
+    cin >> TestCases ;
     
-    for(int i=1;i<=T;i++)
+    for(int i=1;i<=TestCases;i++)
     {
-        cin >> n_case ;
+        cin >> n_players ;
         answer = pow(2,n_case) -1;
         cout << answer << endl;
         
